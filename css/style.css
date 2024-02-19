@@ -11,7 +11,8 @@ html, body {
     opacity: 10;
 }
 
-.box-busca {
+.box-busca{ 
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,6 +26,15 @@ html, body {
     color:#ffffff;
     opacity: 0.6;
 }
+
+/* Chrome, Opera ySafari */
+.search-box-input::-webkit-input-placeholder { color: #ffffff; }
+
+/* Firefox 19+ */
+.search-box-input::-moz-placeholder { color: #ffffff; }
+
+/* IE 10+ y Edge */
+.search-box-input:-ms-input-placeholder { color: #ffffff; }
 
 .search-box form {
     display: flex;
@@ -51,14 +61,14 @@ html, body {
 }
 
 .search-box-button {
-    display: flex;
-    border-radius: 50%;
-    width: 45px;
-    height: 45px;
-    background-color: #14c0c7;
-    border: none;
-    cursor: pointer;
-    transition: .3s;
+   display: flex;
+   border-radius: 50%;
+   width: 45px;
+   height: 45px;
+   background-color: #14c0c7;
+   border: none;
+   cursor: pointer;
+   transition: .3s;
 }
 
 .search-box-button:active  {
