@@ -6,9 +6,9 @@ html, body {
 .logo {
     max-width: 200px;
     max-height: 150px;
-    align-items: flex-start;
+    margin-top: -10px;
     margin-left: -10px;
-    opacity: 10;
+    opacity: 10px;
 }
 
 .box-busca{ 
