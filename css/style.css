@@ -8,4 +8,5 @@ html, body {
     max-height: 150px;
     margin-top: -10px;
     margin-left: -10px;
+    opacity: 0.6;
 }
