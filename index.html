@@ -3,24 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HighSync</title>
-    <link rel="stylesheet" type="text/css" href="css\style.css">
-    <script src="js\script.js"></script>
+    <title>Search Bar</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Adicionando o logotipo principal -->
-    <section>
-        <img src="img\logotipo.png" class="logo">
-    </section>
-    <!--Adicionando barra de pesquisa-->
-    <div class="box-busca">
+    <div class="container">
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
         <div class="search-box">
-            <form method="post" action="#">
-                <input type="text" class="search-box-input" name="busca" placeholder="Faça sua Pesquisa">
-                <button class="search-box-button"><i class="search-box-icone icon icon-search"></i></button>
+            <form>
+                <input type="text" class="search-box-input" placeholder="Search...">
+                <button type="submit" class="search-box-button">
+                    <i class="search-box-icon"></i>
+                </button>
             </form>
-        </div><!-- Search -->
-    </div><!--Box Busca-->
-    
+        </div>
+    </div>
 </body>
 </html>
+
+
