@@ -1,0 +1,11 @@
+html, body {
+    background-image: linear-gradient(to bottom, #C8CCED, #FFFFFF);
+    height: 100%;
+}
+
+.logo {
+    max-width: 200px;
+    max-height: 150px;
+    margin-top: -10px;
+    margin-left: -10px;
+}
