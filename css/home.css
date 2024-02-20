@@ -14,8 +14,11 @@ hr {
  opacity: 0.2;
 }
 
-header {
-    justify-content: flex-start;
+.header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px;
 }
 
 @media only screen and (max-width: 768px) {
