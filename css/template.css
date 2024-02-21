@@ -10,8 +10,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: #ffffff;
-    color: #000;
+    background-color: #333;
+    color: #fff;
   }
   
   /* Estilos para a logo */
@@ -19,7 +19,7 @@ body {
     flex-shrink: 0; /* Impede que a logo diminua além do necessário */
   }
   .logo img {
-    width: 50px; /* Tamanho da logo reduzido 50px*/
+    width: 50px; /* Tamanho da logo reduzido */
     height: auto;
   }
   
