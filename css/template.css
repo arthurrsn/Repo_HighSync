@@ -1,129 +1,128 @@
 /* Estilos gerais */
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  /* Estilos para o header*/
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    background-color: #ffffff;
-    color: #000;
-  }
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
 
-  .hr_separator {
-    border: none;
-    border-bottom: 1px solid rgb(92, 92, 92); /* Define a borda inferior do hr */
-    opacity: 0.2;
+/* Estilos para o header*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #ffffff;
+  color: #000;
+}
+
+.hr_separator {
+  border: none;
+  border-bottom: 1px solid rgb(92, 92, 92); /* Define a borda inferior do hr */
+  opacity: 0.2;
+}
+
+/* Estilos para a logo */
+.logo {
+  flex-shrink: 0; /* Impede que a logo diminua além do necessário */
+}
+.logo img {
+  width: 200px; /* Tamanho da logo reduzido */
+  height: auto;
+  cursor: pointer;
+}
+
+/* Estilos para a navegação de categorias */
+.categories ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.categories ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+/* Estilos para o botão de login */
+.login-btn {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Estilos para o menu móvel */
+.mobile-menu {
+  display: none;
+}
+
+/* Estilos para a logo móvel */
+.logo-mobile img {
+  width: 30px;
+  height: auto;
+}
+
+/* Estilos para o ícone do menu móvel */
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 4px 0;
+}
+
+/* Estilos para a navegação de categorias móveis */
+.mobile-categories {
+  display: none;
+}
+
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
   }
   
-  /* Estilos para a logo */
-  .logo {
-    flex-shrink: 0; /* Impede que a logo diminua além do necessário */
-  }
-  .logo img {
-    width: 200px; /* Tamanho da logo reduzido */
-    height: auto;
-    cursor: pointer;
-  }
-  
-  /* Estilos para a navegação de categorias */
-  .categories ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .categories ul li {
-    display: inline;
-    margin-right: 20px;
-  }
-  
-  /* Estilos para o botão de login */
-  .login-btn {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-  /* Estilos para o menu móvel */
-  .mobile-menu {
+  .categories {
     display: none;
   }
   
-  /* Estilos para a logo móvel */
-  .logo-mobile img {
-    width: 30px;
-    height: auto;
+  .login-btn {
+    margin-top: 10px; /* Adiciona margem acima do botão de login */
   }
   
-  /* Estilos para o ícone do menu móvel */
-  .menu-icon {
+  .mobile-menu {
     display: flex;
-    flex-direction: column;
-    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
   }
   
-  .bar {
-    width: 25px;
-    height: 3px;
-    background-color: #fff;
-    margin: 4px 0;
+  .menu-icon {
+    display: block;
   }
   
-  /* Estilos para a navegação de categorias móveis */
   .mobile-categories {
     display: none;
   }
-  
-  /* Estilos para dispositivos móveis */
-  @media screen and (max-width: 768px) {
-    .header {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-    
-    .categories {
-      display: none;
-    }
-    
-    .login-btn {
-      margin-top: 10px; /* Adiciona margem acima do botão de login */
-    }
-    
-    .mobile-menu {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      width: 100%;
-    }
-    
-    .menu-icon {
-      display: block;
-    }
-    
-    .mobile-categories {
-      display: none;
-    }
-  }
+}
 
-  a{
-    color: rgb(122, 122, 122);
-  }
+a{
+  color: rgb(122, 122, 122);
+}
 
-  a:hover{
-    color: black;
-  }
+a:hover{
+  color: black;
+}
 
-  a:active{
-    color: #4CAF50;
-  }
-  
+a:active{
+  color: #4CAF50;
+}
