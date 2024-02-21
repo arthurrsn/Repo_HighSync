@@ -15,8 +15,11 @@ body {
   }
   
   /* Estilos para a logo */
+  .logo {
+    flex-shrink: 0; /* Impede que a logo diminua além do necessário */
+  }
   .logo img {
-    width: 100px;
+    width: 50px; /* Tamanho da logo reduzido */
     height: auto;
   }
   
@@ -40,10 +43,8 @@ body {
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
-    margin-left: auto;
-    cursor: pointer; /* Adicionado para mostrar que é clicável */
+    cursor: pointer;
   }
   
   /* Estilos para o menu móvel */
@@ -53,7 +54,7 @@ body {
   
   /* Estilos para a logo móvel */
   .logo-mobile img {
-    width: 50px;
+    width: 30px;
     height: auto;
   }
   
@@ -88,7 +89,7 @@ body {
     }
     
     .login-btn {
-      margin-left: 0;
+      margin-top: 10px; /* Adiciona margem acima do botão de login */
     }
     
     .mobile-menu {
