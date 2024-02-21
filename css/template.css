@@ -1,20 +1,20 @@
 .logo-categories {
-    display: flex; 
-    align-items: center;
+    display: flex; /* Use flexbox para organizar os itens */
+    align-items: center; /* Alinhe verticalmente os itens */
+    justify-content: center; /* Centralize horizontalmente os itens */
 }
 
 .logo {
     max-width: 150px;
     max-height: 150px;
-    margin-right: 20px; 
+    margin-right: 20px; /* Adicione um espaçamento à direita para separar a logo das categorias */
     cursor: pointer;
 }
 
 .categories a {
-    margin-right: 10px; 
+    margin-right: 10px; /* Adicione um espaçamento entre as categorias */
     text-decoration: none;
     color: #333;
-    justify-content: center;
 }
 
 .logo:hover {
@@ -23,7 +23,7 @@
 
 .hr_separator {
     border: none;
-    border-bottom: 1px solid rgb(92, 92, 92); 
+    border-bottom: 1px solid rgb(92, 92, 92); /* Define a borda inferior do hr */
     opacity: 0.2;
 }
 
