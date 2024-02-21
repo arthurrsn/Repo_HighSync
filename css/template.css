@@ -13,6 +13,12 @@ body {
     background-color: #ffffff;
     color: #000;
   }
+
+  .hr_separator {
+    border: none;
+    border-bottom: 1px solid rgb(92, 92, 92); /* Define a borda inferior do hr */
+    opacity: 0.2;
+  }
   
   /* Estilos para a logo */
   .logo {
