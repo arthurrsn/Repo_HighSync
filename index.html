@@ -1,33 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yvone Pimentel HighSync</title>
-    <link rel="stylesheet" type="text/css" href="css/template.css">
-    <script src="js/script.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Header</title>
+  <link rel="stylesheet" href="css/template.css">
 </head>
 <body>
 
+<!-- Cabeçalho -->
 <header class="header">
-    <!-- Adicionando o conteúdo do cabeçalho -->
-    <div class="logo-categories">
-        <div class="logo-container">
-            <img src="img/logotipo.png" class="logo" alt="HighSync">
-        </div>
-        <div class="categories">
-            <a href="#">Categoria 1</a>
-            <a href="#">Categoria 2</a>
-            <a href="#">Categoria 3</a>
-        </div>
+  <!-- Logo no canto superior esquerdo -->
+  <div class="logo">
+    <img src="img/logotipo.png" alt="Logo">
+  </div>
+  <!-- Navegação de categorias no centro -->
+  <nav class="categories">
+    <ul>
+      <li><a href="#">Categoria 1</a></li>
+      <li><a href="#">Categoria 2</a></li>
+      <li><a href="#">Categoria 3</a></li>
+    </ul>
+  </nav>
+  <!-- Botão de login no canto superior direito -->
+  <button class="login-btn">Login</button>
+  <!-- Menu móvel -->
+  <div class="mobile-menu">
+    <!-- Logo pequena para dispositivos móveis -->
+    <div class="logo-mobile">
+      <img src="logo-small.png" alt="Logo">
     </div>
+    <!-- Ícone do menu para dispositivos móveis -->
+    <div class="menu-icon">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <!-- Navegação de categorias para dispositivos móveis -->
+    <nav class="mobile-categories">
+      <ul>
+        <li><a href="#">Categoria 1</a></li>
+        <li><a href="#">Categoria 2</a></li>
+        <li><a href="#">Categoria 3</a></li>
+      </ul>
+    </nav>
+  </div>
 </header>
 
-<hr class="hr_separator">
-
-<footer>
-    <!-- Aqui vou adicionar conteúdo para o rodapé -->
-</footer>
-
+<script src="js/template.js"></script>
 </body>
 </html>

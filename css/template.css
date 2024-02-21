@@ -1,59 +1,109 @@
-.logo-categories {
-    display: flex; /* Use flexbox para organizar os itens */
-    align-items: center; /* Alinhe verticalmente os itens */
-}
-
-.logo-container {
-    margin-right: 20px; /* Adicione um espaçamento à direita para separar a logo das categorias */
-}
-
-.logo {
-    max-width: 150px;
-    max-height: 150px;
-    cursor: pointer;
-}
-
-.categories {
-    display: flex; /* Use flexbox para organizar as categorias */
-    align-items: center; /* Alinhe verticalmente os itens */
-}
-
-.categories a {
-    margin-right: 10px; /* Adicione um espaçamento entre as categorias */
-    text-decoration: none;
-    color: #333;
-}
-
-.logo:hover {
-    background-color: aqua;
-}
-
-.hr_separator {
-    border: none;
-    border-bottom: 1px solid rgb(92, 92, 92); /* Define a borda inferior do hr */
-    opacity: 0.2;
-}
-
-.header {
+/* Estilos gerais */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos para o cabeçalho */
+  .header {
     display: flex;
-    justify-content: center;
-}
-
-@media only screen and (max-width: 768px) {
-    .logo {
-        max-width: 200px;
-        display: block;
-        margin: 20px auto 0 auto;
-    }
-}
-
-@media only screen and (min-width: 769px) {
-    .logo {
-        margin-left: 50px;
-        margin-right: 50px;
-    }
-
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Estilos para a logo */
+  .logo img {
+    width: 100px;
+    height: auto;
+  }
+  
+  /* Estilos para a navegação de categorias */
+  .categories ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .categories ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  /* Estilos para o botão de login */
+  .login-btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: auto;
+    cursor: pointer; /* Adicionado para mostrar que é clicável */
+  }
+  
+  /* Estilos para o menu móvel */
+  .mobile-menu {
+    display: none;
+  }
+  
+  /* Estilos para a logo móvel */
+  .logo-mobile img {
+    width: 50px;
+    height: auto;
+  }
+  
+  /* Estilos para o ícone do menu móvel */
+  .menu-icon {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 4px 0;
+  }
+  
+  /* Estilos para a navegação de categorias móveis */
+  .mobile-categories {
+    display: none;
+  }
+  
+  /* Estilos para dispositivos móveis */
+  @media screen and (max-width: 768px) {
     .header {
-        justify-content: flex-start;
+      flex-direction: column;
+      align-items: flex-start;
     }
-}
+    
+    .categories {
+      display: none;
+    }
+    
+    .login-btn {
+      margin-left: 0;
+    }
+    
+    .mobile-menu {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+    
+    .menu-icon {
+      display: block;
+    }
+    
+    .mobile-categories {
+      display: none;
+    }
+  }
+  
