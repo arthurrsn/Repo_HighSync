@@ -10,8 +10,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: #333;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000;
   }
   
   /* Estilos para a logo */
@@ -106,5 +106,17 @@ body {
     .mobile-categories {
       display: none;
     }
+  }
+
+  a{
+    color: rgb(122, 122, 122);
+  }
+
+  a:hover{
+    color: black;
+  }
+
+  a:active{
+    color: #4CAF50;
   }
   
