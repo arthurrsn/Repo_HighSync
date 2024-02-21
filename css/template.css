@@ -1,14 +1,21 @@
 .logo-categories {
     display: flex; /* Use flexbox para organizar os itens */
     align-items: center; /* Alinhe verticalmente os itens */
-    justify-content: center; /* Centralize horizontalmente os itens */
+}
+
+.logo-container {
+    margin-right: 20px; /* Adicione um espaçamento à direita para separar a logo das categorias */
 }
 
 .logo {
     max-width: 150px;
     max-height: 150px;
-    margin-right: 20px; /* Adicione um espaçamento à direita para separar a logo das categorias */
     cursor: pointer;
+}
+
+.categories {
+    display: flex; /* Use flexbox para organizar as categorias */
+    align-items: center; /* Alinhe verticalmente os itens */
 }
 
 .categories a {
