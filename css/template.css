@@ -27,6 +27,7 @@ body {
   .logo img {
     width: 200px; /* Tamanho da logo reduzido */
     height: auto;
+    cursor: pointer;
   }
   
   /* Estilos para a navegação de categorias */
