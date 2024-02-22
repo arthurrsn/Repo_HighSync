@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fale Conosco - Yvone Pimentel</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 170px;
+        background: linear-gradient(to bottom, #ffffff, #7ff1f5); /* Adicionando o degradê */
+    }
+    .container {
+        max-width: 600px;
+        margin: 20px auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+        text-align: center;
+        color: #333;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    textarea {
+        height: 150px;
+    }
+    input[type="submit"] {
+        background-color: #4caf50;
+        color: #fff;
+        border: none;
+        padding: 15px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Ouvidoria - Yvone Pimentel</h1>
+    <form id="contactForm">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="subject">Assunto:</label>
+        <input type="text" id="subject" name="subject" required>
+
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <input type="submit" value="Enviar">
+    </form>
+</div>
+
+<script>
+document.getElementById("contactForm").addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent default form submission
+
+    // Fetch form data
+    const formData = new FormData(event.target);
+
+    // Construct email body
+    const emailBody = `
+        Nome: ${formData.get("name")}
+        E-mail: ${formData.get("email")}
+        Assunto: ${formData.get("subject")}
+        Mensagem: ${formData.get("message")}
+    `;
+
+    // Simulated email sending
+    // Here you would typically send this data to a backend server that handles email sending
+    // For demonstration purposes, we're just logging the email body to the console
+    console.log("Email Body:", emailBody);
+    // Simulated success message
+    alert("Sua mensagem foi enviada com sucesso para lucas.tanck@escola.pr.gov.br!");
+
+    // Clear form fields
+    event.target.reset();
+});
+</script>
+
+</body>
+</html>
