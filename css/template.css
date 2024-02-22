@@ -86,36 +86,35 @@ a:active{
   padding: 20px 0;
   border-top: 2px solid #1C1C1C; /* Adicionando uma borda superior */
 }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-around;
-        
-            flex-wrap: wrap;
-        }
-        .footer-column {
-            flex: 1;
-            margin: 20px; /* Espaçamento entre as colunas */
-        }
-        .footer h3 {
-            margin-bottom: 10px;
-        }
-        .footer ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        .footer ul li {
-            margin-bottom: 5px;
-        }
-        .footer ul li a {
-            color: #DCDCDC;
-            text-decoration: none;
-            transition: color 0.3s; /* Adicionando uma transição suave para a mudança de cor */
-        }
-        .footer ul li a:hover {
-            color: red; /* Mudando a cor do texto ao passar o mouse */
-        }
-        .footer p {
-            margin-top: 20px; /* Espaçamento acima do texto de direitos autorais */
-        }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;      
+  flex-wrap: wrap;
+}
+.footer-column {
+  flex: 1;
+  margin: 20px; /* Espaçamento entre as colunas */
+}
+.footer h3 {
+  margin-bottom: 10px;
+}
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+.footer ul li {
+  margin-bottom: 5px;
+}
+.footer ul li a {
+  color: #DCDCDC;
+  text-decoration: none;
+  transition: color 0.3s; /* Adicionando uma transição suave para a mudança de cor */
+}
+.footer ul li a:hover {
+  color: red; /* Mudando a cor do texto ao passar o mouse */
+}
+.footer p {
+  margin-top: 20px; /* Espaçamento acima do texto de direitos autorais */
+}
