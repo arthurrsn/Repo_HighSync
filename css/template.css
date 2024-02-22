@@ -4,7 +4,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* Estilos para o header.*/
+/* Estilos para o header*/
 .header {
   display: flex;
   justify-content: space-between;
@@ -29,6 +29,7 @@ body {
   width: 200px; /* Tamanho da logo reduzido */
   height: auto;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 /* Estilos para a navegação de categorias */
@@ -65,11 +66,12 @@ body {
 }
 
 a{
-  color: rgb(122, 122, 122);
+  color: rgb(0, 0, 0);
+  text-decoration: none;
 }
 
 a:hover{
-  color: black;
+  color: rgb(122, 122, 122);
 }
 
 a:active{
