@@ -5,6 +5,15 @@ body {
   font-family: Arial, sans-serif;
 }
 
+/* Fonte da logo */
+.montserrat-font-logo {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+
 /* Estilos para o header*/
 .header {
   display: flex;
@@ -118,3 +127,4 @@ a:active{
 .footer p {
   margin-top: 20px; /* Espaçamento acima do texto de direitos autorais */
 }
+
