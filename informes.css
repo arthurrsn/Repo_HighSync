@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#videologo {
+  
+  width: 20%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+}
+.logo {
+    width: 25%;
+}
+.listas {
+    color: #000000;
+    justify-content: flex-end;
+}
+.homepng {
+    width: 5%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+.container1 {
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    
+}.container2 {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 50px;
+    
+}
+
+.container3 {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+.container4 {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+header {
+    background-color: #ffffff;
+    padding: 10px 0;
+}
+
+header h1 {
+    color: #fff;
+    float: left;
+}
+
+nav ul {
+    margin-top: -52px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-top: -2px;
+    display: flex;
+    align-items: flex-end;
+    margin-right: 20px;
+    justify-content: flex-end;
+}
+
+nav ul li a {
+    margin-top: 2px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#banner {
+    background-image: url('juri.jpg'); /* Substitua 'banner.jpg' com o caminho para a sua imagem de banner */
+    background-size: cover;
+    padding: 200px 0;
+    text-align: center;
+}
+
+#banner h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#banner p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+section {
+    padding: 60px 0;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.service {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* Estilos específicos para o tema escuro */
+#about,
+#services {
+    background-color: #222;
+    color: #fff;
+}
+
+.service h3 {
+    color: #007bff;
+}
